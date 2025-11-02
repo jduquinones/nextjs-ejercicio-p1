@@ -20,7 +20,7 @@ const productData = {
 };
 
 // Función CORREGIDA para renderizar estrellas usando Emojis Unicode (★ y ☆)
-const renderStars = (rating: number): JSX.Element => {
+const renderStars = (rating: number): React.ReactElement => {
   const fullStar = '★'; // Estrella rellena
   const emptyStar = '☆'; // Estrella vacía
   const maxStars = 5;
