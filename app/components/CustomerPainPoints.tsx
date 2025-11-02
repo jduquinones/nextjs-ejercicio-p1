@@ -65,11 +65,18 @@ export default function BusyProfessionalSection() {
             </div>
             
             <a
-                href="#comprar"
-                className="mt-8 inline-block bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-lg px-10 py-4 rounded-full transition-all shadow-lg transform hover:scale-105"
-            >
-                ¡Quiero mi Asistente de Limpieza!
-            </a>
+    href="#comprar"
+    // CLASES CORREGIDAS PARA ANCHO RESPONSIVO
+    className="mt-8 inline-block 
+               w-full lg:w-auto // <-- CLASE CLAVE: Ocupa todo el ancho en móvil
+               bg-blue-600 hover:bg-blue-700 
+               text-white font-extrabold 
+               text-lg px-10 py-4 
+               rounded-full transition-all shadow-lg transform hover:scale-105 
+               text-center" // Asegura que el texto esté centrado si hay varias líneas
+>
+    ¡Quiero mi Asistente de Limpieza!
+</a>
           </div>
         </div>
       </div>

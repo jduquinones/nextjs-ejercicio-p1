@@ -12,8 +12,15 @@ export default function FinalCallToAction() {
                 </p>
                 
                 <a
-                    href="#checkout" // Enlazar a la página de pago
-                    className="inline-flex items-center justify-center bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-extrabold text-2xl px-12 py-5 rounded-full transition-all shadow-2xl transform hover:scale-105"
+                    href="#checkout" 
+                    className="inline-flex items-center justify-center 
+                               bg-yellow-400 hover:bg-yellow-500 text-gray-900 
+                               font-extrabold 
+                               
+                               text-lg px-8 py-3  // TAMAÑO POR DEFECTO (MÓVIL)
+                               md:text-2xl md:px-12 md:py-5 // TAMAÑO PARA TABLET/ESCRITORIO
+                               
+                               rounded-full transition-all shadow-2xl transform hover:scale-105"
                 >
                     <ShoppingCart className="h-6 w-6 mr-3" />
                     Comprar Ropvacnic S1 Ahora
