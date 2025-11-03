@@ -71,13 +71,6 @@ export default function ProductSolutions() {
           ))}
         </div>
         
-        {/* Garantía de Fábrica */}
-        <div className="text-center mt-12 p-4 bg-gray-50 rounded-lg">
-            <p className="text-lg font-semibold text-gray-700">
-                <CheckCircle className="inline-block h-6 w-6 text-green-600 mr-2" />
-                Tu inversión está protegida: <span className="font-extrabold text-green-600">30 días de Garantía de Fábrica</span>
-            </p>
-        </div>
       </div>
     </section>
   );

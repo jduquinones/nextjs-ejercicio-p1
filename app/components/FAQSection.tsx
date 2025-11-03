@@ -72,18 +72,6 @@ export default function FAQSection() {
           ))}
         </div>
         
-        {/* CTA final para el soporte */}
-        <div className="text-center mt-12">
-            <p className="text-gray-700 mb-4">
-                ¿Aún tienes preguntas? Nuestro equipo de soporte está listo para ayudarte.
-            </p>
-            <a
-                href="#contacto"
-                className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-full transition-all shadow-lg"
-            >
-                Contactar a Soporte
-            </a>
-        </div>
 
       </div>
     </section>
